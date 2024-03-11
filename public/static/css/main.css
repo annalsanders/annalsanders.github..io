@@ -743,6 +743,10 @@ nav a:hover {
   color: black;
 }
 
+.active {
+  color: black;
+}
+
 .bg-primary {
   background-color: #317350;
 }
@@ -753,6 +757,10 @@ nav a:hover {
 
 .text-secondary {
   color: #86B99D;
+}
+
+.custom-space-ul > li:not(:last-child) {
+  margin-right: 1rem;
 }
 
 @media (min-width: 640px) {

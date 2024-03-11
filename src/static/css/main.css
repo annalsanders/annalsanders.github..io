@@ -94,6 +94,10 @@ nav a:hover {
   color: black;
 }
 
+.active {
+  color: black;
+}
+
 .bg-primary {
   background-color: theme("colors.primary");
 }
@@ -104,4 +108,8 @@ nav a:hover {
 
 .text-secondary {
   color: theme("colors.secondary");
+}
+
+.custom-space-ul > li:not(:last-child) {
+  margin-right: 1rem;
 }
