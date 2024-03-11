@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: "18"
           cache: "npm"
+      - name: Install dependencies
+        run: npm install
       - name: Build CSS
         run: npm run build-min
       - name: Deploy
