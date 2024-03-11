@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "watch": "tailwindcss -i ./src/static/css/main.css -o ./public/static/css/main.css --watch",
+    "build": "tailwindcss -i ./src/static/css/main.css -o ./public/static/css/main.css",
+    "build-min": "tailwindcss -i ./src/static/css/main.css -o ./public/static/css/main.css --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
